@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+body {
+    font-family: "Roboto Light", BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+nav {
+    margin-bottom: 20px;
+    background: rgba(43, 187, 173, 1)/*rgba(56, 1, 1, 0.8)*/
+    ;
+    padding-top: 20px;
+    min-height: 5em;
+    max-height: auto;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1.1em;
+    /* text-transform: uppercase; */
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+#search-bar {
+    width: 25em;
+}
+
+.fa.fa-search {
+    color: rgba(43, 187, 173, 1);
+}
+
+#search-input:focus {
+    outline: none;
+}
+
+.row.content {
+    height: auto;
+}
+
+#left-side-bar,
+#right-side-bar {
+    background-color: whitesmoke;
+    min-height: 30em;
+}
+
+
+/* Set black background color, white text and some padding */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8)/* #555*/
+    ;
+    color: white;
+    padding: 15px;
+    min-height: 7em;
+}

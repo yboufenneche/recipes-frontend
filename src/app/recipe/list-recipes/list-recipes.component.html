@@ -1,0 +1,11 @@
+<!-- <div class="row row-cols-1 row-cols-md-2" *ngFor="let recipe of recipes; let i=index">
+    <app-recipe [recipe]="recipe"></app-recipe>
+</div> -->
+
+<div class="list-recipes">
+    <div class="row row-cols-1 row-cols-md-3">
+        <div *ngFor="let recipe of recipes; let i=index">
+            <app-recipe [recipe]="recipe"></app-recipe>
+        </div>
+    </div>
+</div>
